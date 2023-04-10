@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            height: 300px;
+        }
+
+        .mauxanh {
+            color: blue;
+        }
+
+        .maucam {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="4" style="background-color: orange; color: white; ">SỞ THÍCH CỦA BẠN</th>
+            </tr>
+            <tr>
+                <td class="mauxanh">Họ và tên</td>
+                <td colspan="2"><input type="text" style="width: 200px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="mauxanh">Email</td>
+                <td colspan="2"><input type="text" style="width: 200px;"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="mauxanh">Sở Thích</td>
+                <td class="maucam"> <input type="checkbox">Thể thao </td>
+                <td class="maucam"><input type="checkbox">Âm nhạc</td>
+                <td class="maucam"><input type="checkbox" class="maucam">Đọc sách</td>
+            </tr>
+            <tr>
+
+                <td class="maucam"> <input type="checkbox">Lướt web </td>
+                <td class="maucam"><input type="checkbox">Chơi game</td>
+                <td class="maucam"><input type="checkbox">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td class="maucam"> <input type="checkbox">Du lịch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="submit" value="Gửi thông tin" style="width: 100px; background-color: thistle;"> </td>
+                <td> <input type="reset" value="Nhập lại" style="width: 100px; background-color: thistle;"> </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
